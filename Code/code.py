@@ -9,7 +9,7 @@ led = adafruit_dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1)
 led.brightness = 0.5
 
 # set up hall effect sensor
-switch = DigitalInOut(board.D2)
+switch = DigitalInOut(board.D0)
 switch.direction = Direction.INPUT
 switch.pull = Pull.UP
 
